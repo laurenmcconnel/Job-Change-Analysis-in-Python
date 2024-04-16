@@ -4,8 +4,14 @@
 # # Job Change Prediction and Analysis
 # The Dataset which I chose to analyse was resourced from the following link
 # 'https://www.kaggle.com/datasets/arashnic/hr-analytics-job-change-of-data-scientists/data'
+# The Dataset includes a mix of categorical and numerical data which we must convert to apply feature engineering. 
+# As the categorical columns arise I have explained this and outlined the steps to convert them to numerical values. 
 
-#To start the analysis I imported some essential libraries
+#Data Quality 
+#This dataset helps the company to predict the probability of an employee leaving the company based on the credentials, demographics, and experience data.
+#Target is the category which predicts if the employee will leave: 0 – Not looking for job change, 1 – Looking for a job change.
+
+#To start the analysis I imported some essential libraries for descriptive analytics.
 import pandas as pd
 import numpy as np
 
